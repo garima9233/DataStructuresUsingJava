@@ -12,9 +12,9 @@
 *
 * Aakash Verma
 *				
-* Given BST:						10
-*								  /    \	
-*								 5		20
+* Given BST:							10
+*							      /    \	
+*							     5	    20
 *							    / \	   /  \
 * 							   2   7  15   25
 *

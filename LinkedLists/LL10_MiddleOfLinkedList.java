@@ -15,11 +15,11 @@
 *
 *	Output 1: 
 *	Nodes in the Linked List: 1 2 3 4 5 
-*	Middle of Node is: 3
+*	Middle of List is: 3
 *	
 *	Output 2:
 * 	Nodes in the Linked List: 1 2 3 4 5 6 
-*	Middle of Node is: 4
+*	Middle of List is: 4
 *
 *
 *
@@ -102,7 +102,7 @@ class LL10_MiddleOfLinkedList {
 		System.out.print("Nodes in the Linked List: ");
 		list.printList();
 		Node answerNode = list.middleOfLinkedList();
-		System.out.println("\nMiddle of Node is: " + answerNode.data);
+		System.out.println("\nMiddle of List is: " + answerNode.data);
 		
 	}
 }

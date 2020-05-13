@@ -12,4 +12,6 @@ There are some pre-requisites for following this repository:
   <li> And you should already have a little bit idea of these concepts and algorithms for implementing these Data Structures. Only then you'll be able to understand the codes.</li>
  </ul>
  
- In each folder files are names in order, for example: Linked List's first file is named staring as LL1.... so understand accordingly.
+ In each folder files are named in the order, for example: Linked List's first file is named staring as LL1.... so understand accordingly.
+ 
+ # AB JAO OR PHODO

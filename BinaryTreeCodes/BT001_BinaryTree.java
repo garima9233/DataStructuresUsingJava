@@ -22,14 +22,14 @@ class Node {
 
 
 // Defining class for the Binary Tree
-class BT1_BinaryTree {
+class BT001_BinaryTree {
 
     // Creating a root node for the Tree.
     static Node root;
     
 
     // Assigning root as null initially.
-    BT1_BinaryTree() {
+    BT001_BinaryTree() {
         root = null;
     }
     
@@ -66,7 +66,7 @@ class BT1_BinaryTree {
     
     // main method
     public static void main (String[] args) {
-        BT1_BinaryTree tree = new BT1_BinaryTree();
+        BT001_BinaryTree tree = new BT001_BinaryTree();
         tree.root = new Node(1);
         tree.root.left = new Node(2);
         tree.root.right = new Node(3);

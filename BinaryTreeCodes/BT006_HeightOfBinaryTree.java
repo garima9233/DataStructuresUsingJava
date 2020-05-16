@@ -26,13 +26,13 @@ class Node {
 }
 
 /* Defining class for the Binary Tree */
-class BT6_HeightOfBinaryTree {
+class BT006_HeightOfBinaryTree {
 
 	/* Creating a root node for the Tree. */
 	static Node root;
 
 	/* Assigning root as null initially. */
-	BT6_HeightOfBinaryTree() {
+	BT006_HeightOfBinaryTree() {
 		root = null;
 	}
 
@@ -64,8 +64,8 @@ class BT6_HeightOfBinaryTree {
 
 	/* main method */
 	public static void main(String[] args) {
-		BT6_HeightOfBinaryTree tree = new BT6_HeightOfBinaryTree();
-		tree.root = new Node(1);
+	BT006_HeightOfBinaryTree tree = new BT006_HeightOfBinaryTree();
+	tree.root = new Node(1);
         tree.root.left = new Node(2);
         tree.root.right = new Node(3);
         tree.root.left.left = new Node(4);

@@ -29,14 +29,14 @@ class Node {
 }
 
 /* Defining class for the Binary Tree */
-class BT2_NumOfNodesBinaryTree {
+class BT002_NumOfNodesBinaryTree {
 
     /* Creating a root node for the Tree. */
     static Node root;
     
 
     /* Assigning root as null initially. */
-    BT2_NumOfNodesBinaryTree() {
+    BT002_NumOfNodesBinaryTree() {
         root = null;
     }
 
@@ -63,7 +63,7 @@ class BT2_NumOfNodesBinaryTree {
 	
     /* main method */
     public static void main (String[] args) {
-        BT2_NumOfNodesBinaryTree tree = new BT2_NumOfNodesBinaryTree();
+        BT002_NumOfNodesBinaryTree tree = new BT002_NumOfNodesBinaryTree();
         tree.root = new Node(1);
         tree.root.left = new Node(2);
         tree.root.right = new Node(3);

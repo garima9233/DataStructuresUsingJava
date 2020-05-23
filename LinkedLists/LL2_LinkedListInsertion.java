@@ -50,7 +50,6 @@ class LL2_LinkedListInsertion {
 		Node h = head;
 		if(h == null) {
 			Node temp = new Node(key);
-			temp.next = null;
 			head = temp;
 		}
 		else {
@@ -65,7 +64,6 @@ class LL2_LinkedListInsertion {
 		Node h = head;
 		if(h == null) {
 			Node temp = new Node(key);
-			temp.next = null;
 			head = temp;
 		}
 		else {
@@ -73,7 +71,6 @@ class LL2_LinkedListInsertion {
 				h = h.next;
 			}
 			Node temp = new Node(key);
-			temp.next = null;
 			h.next = temp;
 		}
 	}
